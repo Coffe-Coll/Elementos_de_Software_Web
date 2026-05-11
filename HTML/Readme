@@ -1,0 +1,19 @@
+● Por qué los enlaces son verdes y no rojos
+R/: Los enlaces son verdes porque la regla que aplica a a.news__item-link dentro de ul.news li.news__item 
+tiene mayor especificidad que la regla general aplicada a todos los <a>, 
+por eso el color verde sobrescribe al rojo.
+
+● Hacer que los enlaces sean rojos
+R/: Para hacer que los enlaces sean rojos, se debe modificar la regla específica
+de a.news__item-link y cambiar el color verde por rojo.
+
+● Rehacer el HTML usando <div> en lugar de <ul> y <li>. ¿Qué pasa?
+R/: Al rehacer el HTML usando <div> en lugar de <ul> y <li>, los estilos dejarían de funcionar 
+correctamente porque el CSS depende de selectores como ul.news y li.news__item. Además, se perdería 
+la semántica de lista.
+
+● Comentar el CSS que no se puede tocar y reescribir este CSS usando una
+clase por selector para que se vea igual.
+R/: Si se comenta el CSS original y se reescribe usando una clase por selector, 
+el diseño podría verse igual, pero los selectores ya no dependerían de etiquetas HTML 
+(ul, li, h2, a) sino únicamente de clases.
