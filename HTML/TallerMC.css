@@ -1,0 +1,57 @@
+/* Punto 2*/
+
+.example1 {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.example2 {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.example3 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.example4 {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+/*La propiedad display cambia el comportamiento de los elementos. Con block el div ocupa toda la línea,
+con inline queda en la misma línea como texto, con inline-block conserva su tamaño y se coloca en línea, 
+y con none desaparece de la página.*/
+
+
+/* Punto 3*/
+
+.example-imagen2 {
+    width: 100px;
+    height: 100px;
+}
+
+/* Punto 4*/
+
+.imagen-1 {
+    width: 200px;
+    height: 200px;
+}
+
+/*Al colocar una imagen de 200x200 entre dos párrafos, la imagen ocupa 
+un espacio independiente entre ambos textos. El primer párrafo queda arriba de la imagen y 
+el segundo debajo, haciendo que el contenido se distribuya de forma vertical.*/
+
+/* Punto 5*/
+
+.example-5 {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/2021091pngtree-note-music-logo-watercolor-background-image_903000.png')
+    
+}
