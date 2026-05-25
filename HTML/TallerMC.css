@@ -52,6 +52,11 @@ el segundo debajo, haciendo que el contenido se distribuya de forma vertical.*/
 .example-5 {
     width: 100px;
     height: 100px;
-    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/2021091pngtree-note-music-logo-watercolor-background-image_903000.png')
-    
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/2021091pngtree-note-music-logo-watercolor-background-image_903000.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 5px;
+    box-sizing: border-box;
+    background-position: center;
+    overflow: auto;
 }
